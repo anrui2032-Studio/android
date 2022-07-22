@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Framework -->
+  <remove-project name="LineageOS/android_frameworks_av" />
+  <remove-project name="LineageOS/android_frameworks_base" />
+
+  <!-- System -->
+  <remove-project name="LineageOS/android_system_core" />
+
+</manifest>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="anrui"
+          fetch="https://github.com/anrui2032-Studio"
+          revision="lineage-19.1" />
+
+  <!-- Framework -->
+  <project path="frameworks/av" name="android_frameworks_av" remote="anrui" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="anrui" />
+
+  <!-- System -->
+  <project path="system/core" name="android_system_core" remote="anrui" />
+
+</manifest>
